@@ -166,6 +166,7 @@ HashEntry HashTableCuckoo::insertTable2(HashEntry insert)
 	return pop;
 }
 
+//Hash functions given/mandated by Dr. Ryan Rybarcyzk at BU
 int HashTableCuckoo::hashFunction1(int key)
 {
 	return key % size_;
